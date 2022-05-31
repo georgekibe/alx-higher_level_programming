@@ -9,7 +9,5 @@ elif number > 0 and lastDigit <= 5:
     print(f"Last digit of {number} is {lastDigit} and is less than 6 and not 0")
 elif lastDigit == 0:
     print(f"Last digit of {number} is {lastDigit}")
-elif number < 0 and forNegative > 5:
+elif number < 0:
     print(f"Last digit of {number} is {-1*forNegative} and is greater than 5")
-elif number < 0 and forNegative <= 5:
-    print(f"Last digit of {number} is {-1*forNegative} and is less than 6 and not 0")
